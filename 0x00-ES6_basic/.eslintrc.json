@@ -15,12 +15,9 @@
     "rules": {
         "accessor-pairs": "error",
         "array-bracket-newline": "error",
-        "array-bracket-spacing": [
-            "error",
-            "never"
-        ],
+        "array-bracket-spacing": "error",
         "array-callback-return": "error",
-        "array-element-newline": "off",
+        "array-element-newline": "error",
         "arrow-body-style": "error",
         "arrow-parens": "error",
         "arrow-spacing": "error",
@@ -31,7 +28,7 @@
         "camelcase": "error",
         "capitalized-comments": "error",
         "class-methods-use-this": "error",
-        "comma-dangle": "error",
+        "comma-dangle": "off",
         "comma-spacing": [
             "error",
             {
@@ -39,7 +36,10 @@
                 "before": false
             }
         ],
-        "comma-style": "error",
+        "comma-style": [
+            "error",
+            "last"
+        ],
         "complexity": "error",
         "computed-property-spacing": "error",
         "consistent-return": "error",
@@ -55,7 +55,6 @@
         "func-name-matching": "error",
         "func-names": "error",
         "func-style": "error",
-        "function-call-argument-newline": "error",
         "function-paren-newline": "error",
         "generator-star-spacing": "error",
         "global-require": "error",
@@ -218,13 +217,15 @@
         "prefer-spread": "error",
         "prefer-template": "error",
         "quote-props": "error",
-        "quotes": "error",
         "radix": "error",
         "require-atomic-updates": "error",
         "require-await": "error",
         "require-jsdoc": "off",
         "require-unicode-regexp": "error",
-        "rest-spread-spacing": "error",
+        "rest-spread-spacing": [
+            "error",
+            "never"
+        ],
         "semi": "error",
         "semi-spacing": "error",
         "semi-style": [
@@ -232,7 +233,10 @@
             "last"
         ],
         "sort-imports": "error",
-        "sort-keys": "error",
+        "sort-keys": [
+            "error",
+            "asc"
+        ],
         "sort-vars": "error",
         "space-before-blocks": "error",
         "space-before-function-paren": "off",
@@ -246,7 +250,10 @@
         "strict": "error",
         "switch-colon-spacing": "error",
         "symbol-description": "error",
-        "template-curly-spacing": "error",
+        "template-curly-spacing": [
+            "error",
+            "never"
+        ],
         "template-tag-spacing": "error",
         "unicode-bom": [
             "error",
