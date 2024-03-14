@@ -49,3 +49,6 @@ export class StudentClass implements IStudentClass {
         return this._firstName;
     }
 }
+
+// npm run start-dev & npm run build runs webpack
+
