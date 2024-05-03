@@ -1,8 +1,4 @@
 // Ignore these files and dirs
 
-/node_modules
-.eslintrc.js
-babel.config.js
-package-lock.json
-package.json
+node_modules/
 
